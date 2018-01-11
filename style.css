@@ -1,0 +1,198 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end
+}
+
+li
+{
+	padding-right: 15px;
+	color: black;
+}
+
+
+#boutonjs
+{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	height: 30px;
+	width: 500px;
+	margin-top: 200px;
+}
+
+
+#Bloc-central
+{
+	display:none;
+	flex-direction: column;
+
+}
+
+.bouton_menu
+{
+	color:black;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.bouton_menu:hover
+{
+	color:grey;
+	text-decoration: underline;
+}
+
+#sign_in
+{
+	border:1px solid #4285f4;
+	font-size: 13px;
+	font-weight: bold;
+	background: #4285f4;
+	padding: 8px;
+	border-radius: 3px;
+	font-family: arial, sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+
+#logo
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+
+#recherche
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 16px;
+}
+
+.input
+{
+	height: 30px;
+	width: 500px;
+	font-size: 16px;
+	font-family: arial;
+	border: 1px solid #c6c6c6;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+.input:hover
+{
+box-shadow: 7px 7px 7px rgba(0,0,0,0.1)	
+}
+
+.list
+{	
+	display: flex;
+	justify-content: center;
+	padding:10px;
+}
+
+.bouton_recherche
+{
+text-decoration: none;
+font-weight: bold;
+color: grey;
+font-family: arial, sans-serif;
+border: 2px solid #f8f8f8;
+background-color: #f8f8f8;
+margin: 5px;
+padding: 7px;
+}
+
+.bouton_recherche:hover
+{
+	color: grey;
+	border: 1px solid grey;
+	border-radius: 9px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+.pre_footer
+{
+	border: 1px solid #ADADAD;
+	background-color: #f8f8f8;
+	color: rgba(0,0,0,.54);
+	padding-left: 27px;
+	font-size: 15px;
+	font-family: arial, sans-serif;
+	margin-top: 180px;
+
+}
+
+footer
+{
+	border: 8px solid #f8f8f8;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#bas_gauche
+{
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+#bas_gauche a
+{
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	padding-left: 20px;
+	
+}
+
+#bas_gauche a:hover
+{
+	text-decoration: underline;
+}
+
+#bas_droite
+{
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+#bas_droite a
+{
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	padding-right: 20px;
+
+}
+
+#bas_droite	 a:hover
+{
+	text-decoration: underline;
+}
+
+
+
